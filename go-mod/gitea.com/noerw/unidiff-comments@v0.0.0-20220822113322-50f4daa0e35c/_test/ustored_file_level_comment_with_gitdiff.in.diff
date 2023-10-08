@@ -1,0 +1,13 @@
+# This is a file comment
+diff --git a/cmd/comment.go b/cmd/comment.go
+index 0ac7b55..27f51f5 100644
+--- a/cmd/comment.go
++++ b/cmd/comment.go
+@@ -13,6 +13,7 @@ import (
+ 	"code.gitea.io/sdk/gitea"
+ 	"code.gitea.io/tea/cmd/flags"
+ 	"code.gitea.io/tea/modules/context"
++	"code.gitea.io/tea/modules/print"
+ 	"code.gitea.io/tea/modules/utils"
+ 	"github.com/urfave/cli/v2"
+ )
